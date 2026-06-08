@@ -1,19 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portefólio</title>
     <title>Portefólio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header >
+    <header>
         <div class="container">
-            <div class="logo">
+            <a class="logo" href="#hero">
                 <img src="images/terminal.png">
                 <p class="logo-nome">Guilherme Silva</p>
-            </div>
-
+            </a>
             <nav class="navbar">
                 <a href="#about">About me</a>
                 <a href="#skills">Skills</a>
@@ -24,20 +25,65 @@
     </header>
 
     <main>
-        <section id="about">
+        <section id="hero">
+            <div class="hero-card">
+                <img class="hero-map" src="images/maps.png">
+                <div class="hero-overlay">
+                    <img class="hero-avatar" src="images/memoji.png">
+                    <p>Hi, i am Guilherme 👋</p>
+                </div>
+            </div>
         </section>
 
-        <section id="skills">     
+        <section id="about">
+            <div class="container">
+                <div class="section-title">
+                    <h2>About me</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Skills</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card"><img src="images/java.png"></div>
+                    <div class="skill-card"><img src="images/c.png"></div>
+                    <div class="skill-card"><img src="images/c++.png"></div>
+                    <div class="skill-card"><img src="images/python.png"></div>
+                    <div class="skill-card"><img src="images/js.png"></div>
+                    <div class="skill-card"><img src="images/html.png"></div>
+                    <div class="skill-card"><img src="images/css.png"></div>
+                    <div class="skill-card"><img src="images/php.png"></div>
+                    <div class="skill-card"><img src="images/flutter.png"></div>
+                    <div class="skill-card"><img src="images/sqlite.png"></div>
+                    <div class="skill-card empty"></div>
+                    <div class="skill-card empty"></div>
+                    <div class="skill-card empty"></div>
+                    <div class="skill-card empty"></div>
+                    <div class="skill-card empty"></div>
+                </div>
+            </div>
         </section>
 
         <section id="projects">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Projects</h2>
+                </div>
+            </div>
         </section>
-
     </main>
 
     <footer id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact</h2>
+            </div>
+        </div>
     </footer>
-
 </body>
 
 </html>
